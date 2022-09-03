@@ -6,15 +6,11 @@ namespace ShapeInheritance.Entities {
         public Color Color { get; set; }
 
         // Contructors
-        public Shape() { }
-
         public Shape(Color color) {
             Color = color;
         }
 
         // Methods
-        public virtual double Area() {
-            return 0.0;
-        }
+        public abstract double Area();
     }
 }

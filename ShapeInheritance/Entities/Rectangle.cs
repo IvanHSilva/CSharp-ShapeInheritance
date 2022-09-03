@@ -7,8 +7,6 @@ namespace ShapeInheritance.Entities {
         public double Height { get; set; }
 
         // Contructors
-        public Rectangle() { }
-
         public Rectangle(double width, double height, Color color) : base(color) {
             Width = width;
             Height = height;
